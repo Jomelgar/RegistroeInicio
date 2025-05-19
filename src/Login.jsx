@@ -18,7 +18,7 @@ function Login({ loginUser }) {
     } else {
       alert(result.message);
     }
-  };
+  }; 
 
   const handleShowPassword = () => {
     setShowPassword(prev => !prev);

@@ -15,7 +15,7 @@ function App() {
     setUsers(newUsers);
     return { success: true };
   };
-
+ 
   const loginUser = (username, password) => {
     const user = users.get(username);
     if (!user) return { success: false, message: 'Usuario no encontrado' };
