@@ -11,7 +11,7 @@ function App() {
       return { success: false, message: 'El usuario ya existe' };
     }
     const newUsers = new Map(users);
-    newUsers.set(userData.username, userData); // Guarda todo el objeto
+    newUsers.set(userData.username, userData); 
     setUsers(newUsers);
     return { success: true };
   };
