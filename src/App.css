@@ -1,0 +1,159 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+  min-height: 100vh;
+  background: linear-gradient(45deg, #a0c8f0, #a0d8b3);
+  font-family: Arial, sans-serif;
+}
+
+.password
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  gap: 8px;
+  
+}
+
+.password .input {
+  flex: 1;
+  padding: 10px;
+
+}
+.password button {
+  padding: 10px;
+  height: 50%;
+  position: relative;
+  top: 14px;
+  right: 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+p
+{
+  font-size: 16px;
+  color: black;
+}
+
+h2{
+  font-size: 50px;
+  align-self: center;
+  white-space: nowrap;
+  font-family: 'Inter', sans-serif;
+  color: black;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  border: 10px solid 'none'; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.login-form input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.login-form button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+input, button {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 10px;
+  color: black;
+  align-self: center;
+  font-family: 'Inter', sans-serif;
+  border: 1px solid ; 
+  border-color: rgb(190, 190, 190);
+  box-shadow: none;
+  outline: none;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+p {
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
